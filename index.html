@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Slider,Une calculette et Un jeu des paires</title>
-        <meta name="description" content="">
+        <title>Slideren javascript </title>
+        <meta name="description" content="coder un slider en js">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -20,14 +20,12 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p >Hello world! This is HTML5 Boilerplate.</p>
+        <p >Slider</p>
 
 
-       <audio src="bob.mp3"autobuffer autoloop loop controls></audio> 
+       <audio src="bob.mp3"autobuffer autoloop loop controls></audio>
 
 
-         <button>play</button>
-         <button class="pause">||</button>
 
          <!-- new -->
          <!-- <h1 class="test">titre</h1>
@@ -38,19 +36,29 @@
 <!-- slider -->
     <h1>Création d'un diâporama</h1>
 
-    <div id="container">
+    <button>play</button>
+    <button class="pause">||</button>
+
+
+    <div class="container">
+      <div class="row">
+
                    <div id="slideshow">
-                       <img src="img/slide1.jpg" alt="image 1" class="slidesimage">
-                       <img src="img/slide2.jpg" alt="image 2" class="slidesimage" name='img23' >
-                       <img src="img/slide3.jpg" alt="image 3" class="slidesimage" name="img23">
-                 
+                       <img src="img/slide1.jpeg" alt="image 1" class="slidesimage img-fluid ">
+                       <img src="img/slide2.jpeg" alt="image 2" class="slidesimage img-fluid " name='img23'>
+                       <img src="img/slide3.jpeg" alt="image 3" class="slidesimage img-fluid " name="img23">
+
                    </div>
-               </div> 
-               <button  id="bPrev" type="button">Prev</button>
-               <button id='bNext' type="button">BNext</button> 
+
+             </div>
+           </div>
+
+           <div class="container offset-4">
+            <button  id="bPrev" type="button">Prev</button>
+            <button id='bNext' type="button">Next</button>
+            </div>
 
 
-        
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
@@ -66,6 +74,6 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
-        <script src="js/bootstrap.js"></script> 
+        <script src="js/bootstrap.js"></script>
     </body>
 </html>
