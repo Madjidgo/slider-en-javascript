@@ -5,7 +5,7 @@ const audio = document.querySelector('audio');
 const  son = document.querySelector('button');
 const bPause = document.querySelector('.pause');
 
-audio.autoplay= true;
+audio.autoplay;
 audio.load();
 
 son.addEventListener('click', joue );
@@ -28,7 +28,7 @@ var next = document.getElementById('bNext');
 
 // img cache
 for (let i = 0; i < images.length; i++) {
-	
+
 if(images[i].name === 'img23'){
 	images[i].style.display = 'none';
 }
@@ -58,9 +58,4 @@ function cacherImage(){
 	}
 	compteur++;
 }
-setInterval(cacherImage,2000);
-
-
-
-
-
+setInterval(cacherImage,2500);
