@@ -94,7 +94,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+  .jumbotron{
+    height: 200px;
+    background: blue; /* For browsers that do not support gradients */
+    background: linear-gradient(#5071ce, white);
+  }
 
+  .header{
+    color: #fff;
+  }
 
 
 
