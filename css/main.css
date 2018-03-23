@@ -97,7 +97,7 @@ textarea {
   .jumbotron{
     height: 200px;
     background: blue; /* For browsers that do not support gradients */
-    background: linear-gradient(#5071ce, white);
+    background: linear-gradient(#5071ce, #b2e2fe);
   }
 
   .header{
